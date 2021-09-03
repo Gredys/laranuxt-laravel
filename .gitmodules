@@ -1,0 +1,3 @@
+[submodule "NuxtJS"]
+	path = resources/nuxt
+	url = https://github.com/Gredys/laranuxt-nuxtjs.git

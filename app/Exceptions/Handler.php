@@ -11,7 +11,6 @@ use Illuminate\Support\Facades\Redirect;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use GuzzleHttp\Psr7\Request as GuzzleRequest;
 use GuzzleHttp\Client as GuzzleClient;
-use function PHPUnit\Framework\fileExists;
 
 class Handler extends ExceptionHandler
 {

@@ -1,6 +1,9 @@
 {
     "private": true,
     "scripts": {
+        "serve": "php artisan serve --port=3030 --host=0.0.0.0",
+        "ide-helper:generate": "php artisan ide-helper:generate",
+        "ide-helper:models": "php artisan ide-helper:models",
         "dev": "npm run development",
         "development": "mix",
         "watch": "mix watch",
